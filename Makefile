@@ -15,7 +15,7 @@ PKG_SOURCE:=v$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://github.com/sirpdboy/python-netfilterqueue/archive/
 PKG_MD5SUM:=f5cd46135d5d71185ca0d56c728d806f
 
-PKG_BUILD_DEPENDS:=python
+PKG_BUILD_DEPENDS:=python3
 
 include $(INCLUDE_DIR)/package.mk
 $(call include_mk, python-package.mk)
